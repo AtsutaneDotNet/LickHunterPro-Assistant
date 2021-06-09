@@ -47,6 +47,7 @@ Just change *control.json* suitable to your need and run *LickHunterAssistant.ex
     },
     "misc": {
         "standalone": "false",
+        "verbose": "false",
         "webHookDelay": "1200",
         "sleep": "15"
     }
