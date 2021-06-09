@@ -1,6 +1,10 @@
 # LickHunterPro-Assistant
 Assistant Software to manage LickHunterPro Bot using python and liquidation data from https://liquidation.atsutane.net
 
+![LHPA-UI](https://user-images.githubusercontent.com/6040550/121283129-33751100-c90d-11eb-8435-93f81acf2bfd.PNG)
+![LHA-Webhook](https://user-images.githubusercontent.com/6040550/121283170-47207780-c90d-11eb-81c9-188418676f34.PNG)
+![LHA-Menu](https://user-images.githubusercontent.com/6040550/121283197-4f78b280-c90d-11eb-8483-cc99fd1ac573.PNG)
+
 # LickHunterPro-Assistant Features
 - [x] Automatically choose pairs for trading base from balance, leverage and percentBal
 - [x] Automatically choose lick value, long offset & short offset base on data from https://liquidation.atsutane.net
