@@ -52,24 +52,7 @@ Just change *control.json* suitable to your need and run *LickHunterAssistant.ex
     }
 }
 ```
-### maxPairs
-- Maximum number of pairs you want the bot to trade
-### maxPositions
-- Maximum number of open positions at one time
-### IsoPercentage
-- Treshold limit for isolation mode. If margin reach above this value the assistant will enter isolation mode
-### PrimaryProfit
-- The default take profit value the bot and assistant will use
-### SecondaryProfit
-- Take profit value the assistant and the bot will use under isolation mode
-### autoPbal & autoMaxPos
-- To enable auto calculate percentBal and maxPositions value base on available balance, nominal value and maximum trade per post
-### MaxMin
-- To control the minimum and maximum value of short and long offset receive from https://liquidation.atsutane.net
-### autoTransfer
-- To enable auto balance transfer from future to spot after balance reach the limit.
-### standalone
-- Debug mode to use the assistant without the bot. It just need *control.json* and *settings.json*
+For More Details Please Visit The [Wiki](https://github.com/AtsutaneDotNet/LickHunterPro-Assistant/wiki/LickHunterPro-Assistant-wiki!)
 
 # Credits
 - [LickHunterPro](https://github.com/CryptoGnome/LickHunterPRO) By [CryptoGnome](https://github.com/CryptoGnome)
