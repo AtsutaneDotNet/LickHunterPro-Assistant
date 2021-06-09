@@ -13,7 +13,50 @@ Assistant Software to manage LickHunterPro Bot using python and liquidation data
 - [x] Support using secondary take profit value when reach isolation mode.
 - [x] Support emergency exit plan by reducing secondary take profit value into half when margin is over 50%
 - [x] Interactive hotkey menu
+- [x] Colorfull discord embed :D
 - [ ] still building the list
+
+# LickHunterPro-Assistant Setup
+Just change *control.json* suitable to your need and run *LickHunterAssistant.exe*
+```json
+{
+    "tradingSettings": {
+        "maxPairs": "100",
+        "maxPositions": "5",
+        "IsoPercentage": "10",
+        "PrimaryProfit": "1.06",
+        "SecondaryProfit": "0.795"
+    },
+    "tradingPairs": {
+        "CurrentPairs": "",
+        "LastUsedPairs": "",
+        "blacklist": "BTC"
+    },
+    "tradingAI": {
+        "autoPbal": "true",
+        "autoMaxPos": "true",
+        "MaxPerPos": "500",
+        "nominalValue": "8",
+        "MaxMin": "false",
+        "maxVwap": "8",
+        "minVwap": "5"
+    },
+    "autoTransfer": {
+        "status": "false",
+        "limit": "1000"
+    },
+    "misc": {
+        "standalone": "false",
+        "webHookDelay": "1200",
+        "sleep": "15"
+    }
+}
+```
+
+# Credits
+- [LickHunterPro](https://github.com/CryptoGnome/LickHunterPRO) By [CryptoGnome](https://github.com/CryptoGnome)
+- [LickHunterPro Variable Pairs](https://github.com/doosjenever/Scripts) By [doosjenever](https://github.com/doosjenever)
+- Free Robot Icon By [Icongeek26](https://www.flaticon.com/authors/icongeek26)
 
 # Donate To LickHunterPro-Assistant Development
 - **ETH/USDT/ERC20** 0x4EF84bB3908EE77EA0B1f5BECB185804beC5352d
