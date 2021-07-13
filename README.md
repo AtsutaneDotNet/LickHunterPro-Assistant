@@ -25,25 +25,30 @@ Just change *control.json* suitable to your need and run *LickHunterAssistant.ex
         "maxPositions": "5",
         "IsoPercentage": "10",
         "PrimaryProfit": "1.06",
-        "SecondaryProfit": "0.795"
+        "SecondaryProfit": "0.795",
+        "EmergencyExit": "false",
+        "EmergencyTrigger": "25",
+        "EmergencyProfit": "0.5"
     },
     "tradingPairs": {
         "CurrentPairs": "",
         "LastUsedPairs": "",
-        "blacklist": "BTC"
+        "blacklist": ""
     },
     "tradingAI": {
         "autoPbal": "true",
         "autoMaxPos": "true",
-        "MaxPerPos": "500",
-        "nominalValue": "8",
+        "LickValueType": "mean",
+        "MaxPerPos": "400",
+        "nominalValue": "6",
         "MaxMin": "false",
         "maxVwap": "8",
-        "minVwap": "5"
+        "minVwap": "4"
     },
     "autoTransfer": {
         "status": "false",
-        "limit": "1000"
+        "limit": "1000",
+        "percentage": "10"
     },
     "misc": {
         "standalone": "false",
@@ -61,5 +66,4 @@ For More Details Please Visit The [Wiki](https://github.com/AtsutaneDotNet/LickH
 - Free Robot Icon By [Icongeek26](https://www.flaticon.com/authors/icongeek26)
 
 # Donate To LickHunterPro-Assistant Development
-- **ETH/USDT/ERC20** 0x4EF84bB3908EE77EA0B1f5BECB185804beC5352d
-- **BSC** 0xaD687b24852Ae916Cfb740871768E7b214175729
+- **ETH/BSC** 0xaD687b24852Ae916Cfb740871768E7b214175729
