@@ -16,6 +16,10 @@ Assistant Software to manage LickHunterPro Bot using python and liquidation data
 - [x] Colorfull discord embed :D
 - [ ] still building the list
 
+# LickHunterPro-Assistant Known Issues
+- [x] The script randomly freeze. Main loop broken. Need to close and it will work again.
+- [ ] still building the list
+
 # LickHunterPro-Assistant Setup
 Just change *control.json* suitable to your need and run *LickHunterAssistant.exe*
 ```json
