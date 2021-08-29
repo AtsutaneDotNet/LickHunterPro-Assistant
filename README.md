@@ -1,6 +1,8 @@
 # LickHunterPro-Assistant
 Assistant Software to manage LickHunterPro Bot using python and liquidation data from https://liquidation.atsutane.net
 
+> Trading futures is very high risk and involves a risk of loss. Please consider carefully if such trading is appropriate for you. Past performance is not indicative of future results. Software and data on this page are for research purposes only and do not constitute investment recommendations or advice. Do your own research!
+
 ![LHPA-UI](https://user-images.githubusercontent.com/6040550/121283129-33751100-c90d-11eb-8435-93f81acf2bfd.PNG)
 ![LHA-Webhook](https://user-images.githubusercontent.com/6040550/121284778-f6f6e480-c90f-11eb-965c-1c0d0cab4177.PNG)
 ![LHA-Menu](https://user-images.githubusercontent.com/6040550/121283197-4f78b280-c90d-11eb-8483-cc99fd1ac573.PNG)
