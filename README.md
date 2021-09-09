@@ -58,9 +58,11 @@ Just change *control.json* suitable to your need and run *LickHunterAssistant.ex
         "percentage": "10"
     },
     "misc": {
+        "bot_name": "Assistant",
         "standalone": "false",
         "verbose": "false",
         "webHookDelay": "1200",
+        "botRestart": "0",
         "sleep": "15"
     }
 }
