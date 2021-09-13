@@ -35,9 +35,12 @@ Just change *control.json* suitable to your need and run *LickHunterAssistant.ex
         "SecondaryProfit": "0.795",
         "EmergencyExit": "false",
         "EmergencyTrigger": "25",
-        "EmergencyProfit": "0.5"
+        "EmergencyProfit": "0.5",
+        "OverrideLongOffset": "0",
+        "OverrideShortOffset": "0"
     },
     "tradingPairs": {
+        "whitelist": "",
         "CurrentPairs": "",
         "LastUsedPairs": "",
         "blacklist": ""
