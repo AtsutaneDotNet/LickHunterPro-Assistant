@@ -24,6 +24,10 @@ Assistant Software to manage LickHunterPro Bot using python and liquidation data
 - [ ] still building the list
 
 ## LickHunterPro-Assistant Setup
+Download the latest version from *https://github.com/AtsutaneDotNet/LickHunterPro-Assistant/releases*. Extract and put it inside LHP folders
+
+![LHA setup](https://user-images.githubusercontent.com/6040550/134997297-3d252a2c-0874-4c9b-a9b6-b1d448b11e7f.PNG)
+
 Just change *control.json* suitable to your need and run *LickHunterAssistant.exe*
 ```json
 {
