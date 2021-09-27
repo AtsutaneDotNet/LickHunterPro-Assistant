@@ -7,7 +7,7 @@ Assistant Software to manage LickHunterPro Bot using python and liquidation data
 ![LHA-Webhook](https://user-images.githubusercontent.com/6040550/121284778-f6f6e480-c90f-11eb-965c-1c0d0cab4177.PNG)
 ![LHA-Menu](https://user-images.githubusercontent.com/6040550/121283197-4f78b280-c90d-11eb-8483-cc99fd1ac573.PNG)
 
-# LickHunterPro-Assistant Features
+## LickHunterPro-Assistant Features
 - [x] Automatically choose pairs for trading base from balance, leverage and percentBal
 - [x] Automatically choose lick value, long offset & short offset base on data from https://liquidation.atsutane.net
 - [x] Discord Webhook support for notification and status change
@@ -18,12 +18,12 @@ Assistant Software to manage LickHunterPro Bot using python and liquidation data
 - [x] Colorfull discord embed :D
 - [ ] still building the list
 
-# LickHunterPro-Assistant Known Issues
+## LickHunterPro-Assistant Known Issues
 - [x] The script randomly freeze. Main loop broken. Need to close and it will work again.
 - [x] Auto PercentBal not really working on Bybit Exchange
 - [ ] still building the list
 
-# LickHunterPro-Assistant Setup
+## LickHunterPro-Assistant Setup
 Just change *control.json* suitable to your need and run *LickHunterAssistant.exe*
 ```json
 {
@@ -72,10 +72,10 @@ Just change *control.json* suitable to your need and run *LickHunterAssistant.ex
 ```
 For More Details Please Visit The [Wiki](https://github.com/AtsutaneDotNet/LickHunterPro-Assistant/wiki/LickHunterPro-Assistant-wiki!)
 
-# Credits
+## Credits
 - [LickHunterPro](https://github.com/CryptoGnome/LickHunterPRO) By [CryptoGnome](https://github.com/CryptoGnome)
 - [LickHunterPro Variable Pairs](https://github.com/doosjenever/Scripts) By [doosjenever](https://github.com/doosjenever)
 - Free Robot Icon By [Icongeek26](https://www.flaticon.com/authors/icongeek26)
 
-# Donate To LickHunterPro-Assistant Development
+## Donate To LickHunterPro-Assistant Development
 - **ETH/BSC** 0xaD687b24852Ae916Cfb740871768E7b214175729
