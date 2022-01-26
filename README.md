@@ -53,6 +53,7 @@ Just change *control.json* suitable to your need and run *LickHunterAssistant.ex
         "autoPbal": "true",
         "autoMaxPos": "true",
         "LickValueType": "mean",
+        "IsoLickValue": "median",
         "MaxPerPos": "400",
         "nominalValue": "6",
         "MaxMin": "false",
