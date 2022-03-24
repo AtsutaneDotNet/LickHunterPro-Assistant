@@ -32,16 +32,20 @@ Just change *control.json* suitable to your need and run *LickHunterAssistant.ex
 ```json
 {
     "tradingSettings": {
-        "maxPairs": "100",
-        "maxPositions": "5",
+        "maxPairs": "300",
+        "maxPositions": "2",
         "IsoPercentage": "10",
-        "PrimaryProfit": "1.06",
-        "SecondaryProfit": "0.795",
-        "EmergencyExit": "false",
-        "EmergencyTrigger": "25",
-        "EmergencyProfit": "0.5",
+        "PrimaryProfit": "0.8",
+        "SecondaryProfit": "0.6",
+        "EmergencyExit": "true",
+        "EmergencyTrigger": "20",
+        "EmergencyProfit": "0.4",
         "OverrideLongOffset": "0",
-        "OverrideShortOffset": "0"
+        "OverrideShortOffset": "0",
+        "24hprice_limit": "21",
+        "funding_limit": "0.1",
+        "AutoIsolatedAndLevChange": "true",
+        "margin_type": "ISOLATED"
     },
     "tradingPairs": {
         "whitelist": "",
@@ -52,24 +56,22 @@ Just change *control.json* suitable to your need and run *LickHunterAssistant.ex
     "tradingAI": {
         "autoPbal": "true",
         "autoMaxPos": "true",
-        "LickValueType": "mean",
-        "IsoLickValue": "median",
-        "MaxPerPos": "400",
+        "LickValueType": "safe",
         "nominalValue": "6",
         "MaxMin": "false",
-        "maxVwap": "8",
-        "minVwap": "4"
+        "maxVwap": "12",
+        "minVwap": "8"
     },
     "autoTransfer": {
-        "status": "false",
-        "limit": "1000",
-        "percentage": "10"
+        "status": "true",
+        "limit": "10000",
+        "increase_limit": "true",
+        "percentage": "1"
     },
     "misc": {
         "bot_name": "Assistant",
         "standalone": "false",
         "verbose": "false",
-        "webHookDelay": "1200",
         "botRestart": "0",
         "sleep": "15"
     }
