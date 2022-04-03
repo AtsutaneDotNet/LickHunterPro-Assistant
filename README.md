@@ -44,6 +44,7 @@ Just change *control.json* suitable to your need and run *LickHunterAssistant.ex
         "OverrideShortOffset": "0",
         "24hprice_limit": "21",
         "funding_limit": "0.1",
+        "aging": "21",
         "AutoIsolatedAndLevChange": "true",
         "margin_type": "ISOLATED"
     },
