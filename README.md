@@ -57,7 +57,7 @@ Just change *control.json* suitable to your need and run *LickHunterAssistant.ex
     "tradingAI": {
         "autoPbal": "true",
         "autoMaxPos": "true",
-        "LickValueType": "safe",
+        "LickValueType": "mean",
         "nominalValue": "6",
         "MaxMin": "false",
         "maxVwap": "12",
@@ -71,6 +71,7 @@ Just change *control.json* suitable to your need and run *LickHunterAssistant.ex
     },
     "misc": {
         "bot_name": "Assistant",
+        "webhookStatusDelay": "900",
         "standalone": "false",
         "verbose": "false",
         "botRestart": "0",
