@@ -1,5 +1,5 @@
 # LickHunterPro-Assistant
-Assistant Software to manage LickHunterPro Bot using python and liquidation data from https://liquidation.atsutane.net
+Assistant Software to manage LickHunterPro Bot using python and liquidation data from https://liquidation.report
 
 > ***Trading futures is very high risk and involves a risk of loss. Please consider carefully if such trading is appropriate for you. Past performance is not indicative of future results. Software and data on this page are for research purposes only and do not constitute investment recommendations or advice. Do your own research!***
 
