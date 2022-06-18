@@ -9,7 +9,7 @@ Assistant Software to manage LickHunterPro Bot using python and liquidation data
 
 ## LickHunterPro-Assistant Features
 - [x] Automatically choose pairs for trading base from balance, leverage and percentBal
-- [x] Automatically choose lick value, long offset & short offset base on data from https://liquidation.atsutane.net
+- [x] Automatically choose lick value, long offset & short offset base on data from https://liquidation.report
 - [x] Discord Webhook support for notification and status change
 - [x] Automatically transfer balance from future to spot.
 - [x] Support using secondary take profit value when reach isolation mode.
